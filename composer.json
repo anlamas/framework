@@ -26,5 +26,8 @@
     "require-dev": {
         "symfony/var-dumper": "^4.2",
         "friendsofphp/php-cs-fixer": "^2.14"
+    },
+    "config": {
+        "sort-packages": true
     }
 }
