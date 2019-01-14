@@ -41,7 +41,7 @@ class ConfigServiceProvider extends AbstractServiceProvider implements BootableS
      */
     public function boot()
     {
-        $env = \Dotenv\Dotenv::create(__DIR__.'/../../../');
-        $env->load();
+//        $env = \Dotenv\Dotenv::create(__DIR__.'/../../../');
+//        $env->load();
     }
 }
