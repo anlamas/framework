@@ -1,0 +1,30 @@
+{
+    "require": {
+        "php": "^7.2",
+        "zendframework/zend-diactoros": "^2.1",
+        "league/route": "^4.2",
+        "league/container": "^3.2",
+        "zendframework/zend-httphandlerrunner": "^1.0",
+        "twig/twig": "^2.6",
+        "vlucas/phpdotenv": "^3.1",
+        "samrap/gestalt": "^0.3.1",
+        "doctrine/orm": "^2.6",
+        "ext-PDO": "^7.2",
+        "dasprid/container-interop-doctrine": "^1.1",
+        "rakit/validation": "^1.1",
+        "ext-json": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App",
+            "Core\\": "src/Core"
+        },
+        "files": [
+            "src/Core/Support/helpers.php"
+        ]
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.2",
+        "friendsofphp/php-cs-fixer": "^2.14"
+    }
+}

@@ -1,0 +1,30 @@
+<?php /**@var \League\Plates\Template\Template $this */?>
+<!doctype html>
+<html lang="en">
+    <head>
+        {% include 'layout/partials/_base_head.html.twig' %}
+    </head>
+    <body>
+        <div id="app">
+            <nav class="navbar navbar-dark bg-dark">
+                <div class="container">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/">На главную <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/admin">Админ панель</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main role="main" class="container">
+                {% block content %}{% endblock content %}
+            </main>
+        </div>
+        {% include 'layout/partials/_base_scripts.html.twig' %}
+    </body>
+</html>
