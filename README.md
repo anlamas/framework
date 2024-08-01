@@ -1,4 +1,4 @@
-Test project for the company "Beejee" <br>
+Learning modern PHP frameworks <br>
 
 ## Credits
 
